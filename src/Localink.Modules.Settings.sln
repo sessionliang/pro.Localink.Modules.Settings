@@ -1,0 +1,59 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cms-module", "cms-module", "{1264C6EB-6597-444D-9BDF-2BF6494A3960}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localink.Modules.Settings.Application", "Localink.Modules.Settings.Application\Localink.Modules.Settings.Application.csproj", "{D429F723-4574-4DE3-9F2A-C488BCC91EB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localink.Modules.Settings.Core", "Localink.Modules.Settings.Core\Localink.Modules.Settings.Core.csproj", "{9F61455B-7B40-4E72-9BEC-D7B87DE3AD2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localink.Modules.Settings.EntityFramework", "Localink.Modules.Settings.EntityFramework\Localink.Modules.Settings.EntityFramework.csproj", "{F9DF9CA7-3FDF-425F-9A31-79C14A8FB260}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localink.Modules.Settings.Web", "Localink.Modules.Settings.Web\Localink.Modules.Settings.Web.csproj", "{9DF8A559-ACCC-492B-B881-2D199DCC9401}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C1017744-0AE5-4C09-8F4D-F695C17C2012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localink.Platform.Web", "Tests\Localink.Platform.Web\Localink.Platform.Web.csproj", "{897F6FD8-6F90-48E4-95A5-B4429B896205}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D429F723-4574-4DE3-9F2A-C488BCC91EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D429F723-4574-4DE3-9F2A-C488BCC91EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D429F723-4574-4DE3-9F2A-C488BCC91EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D429F723-4574-4DE3-9F2A-C488BCC91EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F61455B-7B40-4E72-9BEC-D7B87DE3AD2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F61455B-7B40-4E72-9BEC-D7B87DE3AD2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F61455B-7B40-4E72-9BEC-D7B87DE3AD2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F61455B-7B40-4E72-9BEC-D7B87DE3AD2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9DF9CA7-3FDF-425F-9A31-79C14A8FB260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9DF9CA7-3FDF-425F-9A31-79C14A8FB260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9DF9CA7-3FDF-425F-9A31-79C14A8FB260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9DF9CA7-3FDF-425F-9A31-79C14A8FB260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DF8A559-ACCC-492B-B881-2D199DCC9401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DF8A559-ACCC-492B-B881-2D199DCC9401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DF8A559-ACCC-492B-B881-2D199DCC9401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DF8A559-ACCC-492B-B881-2D199DCC9401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{897F6FD8-6F90-48E4-95A5-B4429B896205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{897F6FD8-6F90-48E4-95A5-B4429B896205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{897F6FD8-6F90-48E4-95A5-B4429B896205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{897F6FD8-6F90-48E4-95A5-B4429B896205}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1264C6EB-6597-444D-9BDF-2BF6494A3960} = {AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}
+		{D429F723-4574-4DE3-9F2A-C488BCC91EB6} = {1264C6EB-6597-444D-9BDF-2BF6494A3960}
+		{9F61455B-7B40-4E72-9BEC-D7B87DE3AD2B} = {1264C6EB-6597-444D-9BDF-2BF6494A3960}
+		{F9DF9CA7-3FDF-425F-9A31-79C14A8FB260} = {1264C6EB-6597-444D-9BDF-2BF6494A3960}
+		{9DF8A559-ACCC-492B-B881-2D199DCC9401} = {1264C6EB-6597-444D-9BDF-2BF6494A3960}
+		{897F6FD8-6F90-48E4-95A5-B4429B896205} = {C1017744-0AE5-4C09-8F4D-F695C17C2012}
+	EndGlobalSection
+EndGlobal
