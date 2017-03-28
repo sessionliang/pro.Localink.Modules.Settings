@@ -2,7 +2,7 @@
 
 开发环境：VS2015 , .Net Framework 4.6.1 , TypeScript 2.2
 
-1. 下载之后，先还原Nuget包，然后生成。
+1. 下载之后，先还原Nuget包，然后生成。Nuget包地址：http://101.200.203.219:923/nuget
 
 2. 修改Tests文件夹中Web项目的web.config。主要是ConnectString。
 
